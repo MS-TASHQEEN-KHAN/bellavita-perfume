@@ -348,10 +348,18 @@ margin-bottom: 100px;}
 display: flex;
 width: 99%;
 gap: 10px;
-margin-bottom: 100px;}
+margin-bottom: 100px;
+overflow-x: hidden;
+animation: 5s perfume infinite linear;
+white-space: nowrap;}
 
 .page7>img{width: 370px;
 height: 320px;}
+
+@keyframes perfume {
+    from{transform: translate(0);}
+    to{transform: translate(-100%);}
+}
 
 .page8{width: 100%;
 background-color: rgb(44, 43, 43);
